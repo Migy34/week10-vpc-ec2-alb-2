@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "week10-lohf-terraform"
+    bucket         = "week10-miguy-terraform"
     key            = "week10/terraform.tfstate"
     region         = "us-east-1"
     encrypt        = true
